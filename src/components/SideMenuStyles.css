@@ -1,0 +1,64 @@
+menu {
+  
+    
+    display: flex;
+    align-items: center;
+    background-color: black;
+    
+   
+    z-index:2;
+  }
+  #menuu{
+    background-color: black;
+  }
+
+  .lv-menu lv-menu-light lv-menu-vertical menu-item-container{
+    background-color: black;
+
+  }
+
+
+
+#sidemenu{
+  overflow: auto;
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+ 
+  top: 0;
+  left:0px;
+  /* right: -350px; */
+  width: 100%;
+  height: 100%;
+  background:rgb(32,32,32);
+  
+  padding: 40px 0 0 10px;
+  transition: 0.3s ease-in-out;
+  z-index:2;
+  
+}
+
+
+#logoo{
+  
+  background-color: rgb(32,32,32);
+  
+  color: #4e4848;
+}
+#btn{
+ 
+  border: none;
+  margin-bottom: 2rem;
+  background-color: rgb(32,32,32);
+   
+}
+
+
+#btn :hover,
+#logoo:hover {
+    
+    color: rgb(32,32,32);
+    
+  }
